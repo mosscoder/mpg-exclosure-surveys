@@ -90,7 +90,7 @@ def main():
             print(f"Convex hull for site '{site_name}' is not a polygon (likely collinear points: {convex_hull_polygon.geom_type}). Skipping.")
             continue
 
-        buffered_polygon_utm = convex_hull_polygon.buffer(buffer_distance)
+        buffered_polygon_utm = convex_hull_polygon.buffer(buffer_distance, cap_style=3, join_style=2)
         
         if not buffered_polygon_utm.is_valid or buffered_polygon_utm.is_empty:
             print(f"Buffering for site '{site_name}' resulted in an invalid or empty geometry. Skipping.")
