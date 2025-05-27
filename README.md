@@ -64,7 +64,7 @@ An individual map is generated for each site. Examples:
 
 ## Terrain Following Data
 
-The `data/raster/fc_dsm_ellipsoidal.tif` file contains the Digital Surface Model (DSM; ellipsoidal height; EPSG 4326) required for DJI's terrain-following feature. All missions will be executed with terrain following enabled.
+The https://github.com/mosscoder/front-country-survey/blob/main/data/raster/fc_dsm_ellipsoidal.tif file contains the Digital Surface Model (DSM; ellipsoidal height; EPSG 4326) required for DJI's terrain-following feature. All missions will be executed with terrain following enabled.
 
 ## Other Mission Specifications
 
