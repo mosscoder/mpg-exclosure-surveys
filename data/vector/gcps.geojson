@@ -1,0 +1,32 @@
+{
+"type": "FeatureCollection",
+"name": "gcps",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::6514" } },
+"features": [
+{ "type": "Feature", "properties": { "site": "north_woodchuck", "position": "NW" }, "geometry": { "type": "Point", "coordinates": [ 255620.916462372231763, 279097.392871897260193 ] } },
+{ "type": "Feature", "properties": { "site": "north_woodchuck", "position": "SW" }, "geometry": { "type": "Point", "coordinates": [ 255614.749852458509849, 279062.011647836712655 ] } },
+{ "type": "Feature", "properties": { "site": "north_woodchuck", "position": "SE" }, "geometry": { "type": "Point", "coordinates": [ 255677.780741935916012, 279047.949872483091895 ] } },
+{ "type": "Feature", "properties": { "site": "north_woodchuck", "position": "SE" }, "geometry": { "type": "Point", "coordinates": [ 255687.742585071566282, 279085.734550274268258 ] } },
+{ "type": "Feature", "properties": { "site": "north_woodchuck", "position": "center" }, "geometry": { "type": "Point", "coordinates": [ 255637.706049449305283, 279069.568682256271131 ] } },
+{ "type": "Feature", "properties": { "site": "gun_range", "position": "SE" }, "geometry": { "type": "Point", "coordinates": [ 255655.527590694633545, 278290.667024638736621 ] } },
+{ "type": "Feature", "properties": { "site": "gun_range", "position": "SW" }, "geometry": { "type": "Point", "coordinates": [ 255600.397018420335371, 278290.861490062496159 ] } },
+{ "type": "Feature", "properties": { "site": "gun_range", "position": "center" }, "geometry": { "type": "Point", "coordinates": [ 255629.368449394794879, 278330.803377106552944 ] } },
+{ "type": "Feature", "properties": { "site": "gun_range", "position": "NE" }, "geometry": { "type": "Point", "coordinates": [ 255649.707208943262231, 278356.128070903476328 ] } },
+{ "type": "Feature", "properties": { "site": "gun_range", "position": "NW" }, "geometry": { "type": "Point", "coordinates": [ 255598.599506741418736, 278357.637526153645013 ] } },
+{ "type": "Feature", "properties": { "site": "entrance", "position": "NW" }, "geometry": { "type": "Point", "coordinates": [ 253885.284143322554883, 278983.570050779497251 ] } },
+{ "type": "Feature", "properties": { "site": "entrance", "position": "NE" }, "geometry": { "type": "Point", "coordinates": [ 253913.323187926231185, 278987.760073083394673 ] } },
+{ "type": "Feature", "properties": { "site": "entrance", "position": "center" }, "geometry": { "type": "Point", "coordinates": [ 253897.756770161213353, 278970.868956553924363 ] } },
+{ "type": "Feature", "properties": { "site": "entrance", "position": "SE" }, "geometry": { "type": "Point", "coordinates": [ 253923.052329965110403, 278944.13122660323279 ] } },
+{ "type": "Feature", "properties": { "site": "entrance", "position": "SW" }, "geometry": { "type": "Point", "coordinates": [ 253894.758302364527481, 278933.598340155440383 ] } },
+{ "type": "Feature", "properties": { "site": "indian_ridge", "position": "NW" }, "geometry": { "type": "Point", "coordinates": [ 254404.359038362483261, 281276.925915159343276 ] } },
+{ "type": "Feature", "properties": { "site": "indian_ridge", "position": "SW" }, "geometry": { "type": "Point", "coordinates": [ 254405.923750782705611, 281249.536355998076033 ] } },
+{ "type": "Feature", "properties": { "site": "indian_ridge", "position": "center" }, "geometry": { "type": "Point", "coordinates": [ 254448.542395808326546, 281264.856768338533584 ] } },
+{ "type": "Feature", "properties": { "site": "indian_ridge", "position": "SE" }, "geometry": { "type": "Point", "coordinates": [ 254489.465581280790502, 281255.596725529641844 ] } },
+{ "type": "Feature", "properties": { "site": "indian_ridge", "position": "NE" }, "geometry": { "type": "Point", "coordinates": [ 254486.735414596420014, 281283.697851213684771 ] } },
+{ "type": "Feature", "properties": { "site": "whaley", "position": "SE" }, "geometry": { "type": "Point", "coordinates": [ 255995.930635397147853, 280091.661624954780564 ] } },
+{ "type": "Feature", "properties": { "site": "whaley", "position": "NE" }, "geometry": { "type": "Point", "coordinates": [ 255988.225405681238044, 280120.054868702485692 ] } },
+{ "type": "Feature", "properties": { "site": "whaley", "position": "SW" }, "geometry": { "type": "Point", "coordinates": [ 255940.199658821773482, 280066.065485145081766 ] } },
+{ "type": "Feature", "properties": { "site": "whaley", "position": "NW" }, "geometry": { "type": "Point", "coordinates": [ 255928.483487609919393, 280103.483347258646972 ] } },
+{ "type": "Feature", "properties": { "site": "whaley", "position": "center" }, "geometry": { "type": "Point", "coordinates": [ 255958.459997737576487, 280103.008367344678845 ] } }
+]
+}
