@@ -1,4 +1,4 @@
-# Exclosure Surveys Project
+# Exclosure Surveys
 
 This repository contains scripts and data for planning and mapping exclosure surveys. The workflow involves processing Ground Control Points (GCPs), generating KML flight polygons for drone surveys, and creating site maps with GCPs overlaid on aerial imagery.
 
