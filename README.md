@@ -2,9 +2,9 @@
 
 This repository contains scripts and data for planning and mapping exclosure surveys. The workflow involves processing Ground Control Points (GCPs), generating KML flight polygons for drone surveys, and creating site maps with GCPs overlaid on aerial imagery.
 
-There five sites, each five GCPs per site. The GCPs are located at the center and corners of each site. We are targetting imaging for the week of June 2nd, 2025.
+There are five target sites spread across the Front Country and we plan to install five GCPs per site. The GCPs are located at the center and corners of each site. We are targetting imaging for the week of June 2nd, 2025. Note that these surveys will be flown at 25m AGL.
 
-**SURVEYORS MUST INSPECT GCP LOCATIONS FOR EVIDENCE OF EXPERIMENTAL PLOTS BEFORE INSTALLING GCPS TO ENSURE NO EXPERIMENTAL PLOTS ARE COVERED.**
+**SURVEYORS MUST SCREEN GCP LOCATIONS FOR EVIDENCE OF EXPERIMENTAL PLOTS BEFORE INSTALLING GCPS TO ENSURE NO EXPERIMENTAL PLOTS ARE COVERED.**
 
 ## Project Structure
 
