@@ -2,6 +2,8 @@
 
 This repository contains scripts and data for planning and mapping exclosure surveys. The workflow involves processing Ground Control Points (GCPs), generating KML flight polygons for drone surveys, and creating site maps with GCPs overlaid on aerial imagery.
 
+There five sites, each five GCPs per site. The GCPs are located at the center and corners of each site. We are targetting imaging for the week of June 2nd, 2025.
+
 ## Project Structure
 
 ```
@@ -11,8 +13,7 @@ This repository contains scripts and data for planning and mapping exclosure sur
 ├── 02_map_sites.py               # Creates overview and site-specific maps
 ├── data/
 │   └── vector/
-│       ├── gcps.geojson          # Input GCP coordinates
-│       └── gcps.qmd              # (Likely) Quarto markdown for GCP documentation
+│       └── gcps.geojson          # Input GCP coordinates
 ├── planning/
 │   ├── flight_polygons/          # Output KML flight polygons
 │   │   ├── entrance.kml
