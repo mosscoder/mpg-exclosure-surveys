@@ -4,7 +4,7 @@ This repository contains scripts and data for planning and mapping exclosure sur
 
 There five sites, each five GCPs per site. The GCPs are located at the center and corners of each site. We are targetting imaging for the week of June 2nd, 2025.
 
-**SURVEYORS MUST INSPECT GCP LOCATIONS FOR EVIDENCE OF EXPERIMENTS BEFORE INSTALLING GCPS**
+**SURVEYORS MUST INSPECT GCP LOCATIONS FOR EVIDENCE OF EXPERIMENTAL PLOTS BEFORE INSTALLING GCPS TO ENSURE NO EXPERIMENTAL PLOTS ARE COVERED.**
 
 ## Project Structure
 
