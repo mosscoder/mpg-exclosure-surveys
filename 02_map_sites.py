@@ -77,7 +77,7 @@ with rasterio.open(imagery_url) as src:
     all_bounds = all_flights.total_bounds
     
     # Calculate window for all sites with small buffer
-    buffer = 50
+    buffer = 500
     buffered_bounds = [all_bounds[0] - buffer, all_bounds[1] - buffer, 
                       all_bounds[2] + buffer, all_bounds[3] + buffer]
     
@@ -153,7 +153,7 @@ fig, ax = plt.subplots(figsize=(10, 10))
 ax.imshow(all_img_display, extent=all_extent, zorder=0)
 
 # Plot grid
-plot_grid(ax, all_bounds, step=100)
+plot_grid(ax, buffered_bounds, step=100)
 
 # Plot GCPs: white dot behind cyan dot
 ax.scatter(gcps.geometry.x, gcps.geometry.y, c='white', s=60, label='_nolegend_', zorder=3, edgecolor='none')
